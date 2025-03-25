@@ -1,3 +1,10 @@
 {
-    "id"
+  "vaccinations": [
+    {
+      "id": "6bf3",
+      "animalName": "cat",
+      "vaccine": "FIV(Feline Immunodeficiency Virus",
+      "date": "2025-03-27"
+    }
+  ]
 }
