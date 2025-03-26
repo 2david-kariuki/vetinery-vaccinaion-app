@@ -64,40 +64,16 @@ The **Vetinery Vaccination App** is a simple web application designed to manage 
 3. **Delete a Record**:
      - Click the "Delete" button next to a record to remove it.
 
-## Example Data
 
-Here is an example of the data stored in `db.json`:
-```json
-{
-    "vaccinations": [
-        {
-            "id": "1",
-            "animalName": "Dog",
-            "vaccine": "Rabies",
-            "date": "2025-03-13"
-        },
-        {
-            "id": "2",
-            "animalName": "Cat",
-            "vaccine": "FIV",
-            "date": "2025-03-20"
-        }
-    ]
-}
-```
 
 ## Future Improvements
 
-- Add user authentication for secure access.
-- Implement search and filter functionality.
-- Enhance UI/UX with additional styling.
+. Add user authentication for secure access.
+. Implement search and filter functionality.
+. Enhance UI/UX with additional styling.
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Acknowledgments
-
-- Thanks to the creators of JSON Server for providing a simple mock backend solution.
-- Inspired by the need for better animal vaccination tracking.
 
