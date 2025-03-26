@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const API_URL = "http://localhost:3000/vaccinations";
+    const API_URL = "http://localhost:3000/vaccinations";
   const vaccinationList = document.getElementById("vaccinationList");
   const form = document.getElementById("vaccinationForm");
   let editingId = null;

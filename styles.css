@@ -51,7 +51,46 @@ form button {
 }
 
 form button:hover {
-    background-color: unset;
+    background-color: violet;
 }
 
 
+#vaccinationList {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 0;
+    list-style: none;
+}
+
+#vaccinationList li {
+    background: khaki;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#vaccinationList li button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#vaccinationList li button.edit {
+    background-color: black;
+    color: white;
+}
+
+#vaccinationList li button.edit:hover {
+    background-color: #1976D2;
+}
+
+#vaccinationList li button:hover {
+    background-color: whitesmoke;
+    color: white;
+}
