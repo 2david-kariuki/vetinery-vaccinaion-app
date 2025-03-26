@@ -20,7 +20,7 @@ The **Vetinery Vaccination App** is a simple web application designed to manage 
 
 ## Getting Started
 
-- # Run this command
+- #### Run this command
 . json-server --watch db.json
 
 ## File Structure
